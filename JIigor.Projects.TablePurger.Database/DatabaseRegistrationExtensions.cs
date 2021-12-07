@@ -14,8 +14,13 @@ namespace JIigor.Projects.TablePurger.Database
 
             return services.AddDbContext<PurgerDataContext>(options =>
             {
-                options.UseSqlServer(databaseConfiguration.ConnectionString);
-            }, ServiceLifetime.Singleton);
-        } 
+                _ = options.UseSqlServer(databaseConfiguration.ConnectionString);
+                _ = options.UseInternalServiceProvider(null);
+                _ = options.EnableSensitiveDataLogging(false);
+
+            }, ServiceLifetime.Singleton)
+                .AddSingleton<PurgerService>();
+
+        }
     }
 }

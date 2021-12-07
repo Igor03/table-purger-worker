@@ -1,0 +1,106 @@
+2021-12-06 22:50:26.127 -03:00 [INF] Entity Framework Core 3.1.21 initialized 'PurgerDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-06 22:50:26.178 -03:00 [INF] Checking database: "2021-12-06T22:50:26.1658030-03:00"
+2021-12-06 22:50:27.441 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-06 22:50:27.441 -03:00 [INF] Hosting environment: Development
+2021-12-06 22:50:27.441 -03:00 [INF] Content root path: C:\Users\jigor\source\repos\JIigor.Projects.TablePurger\JIigor.Projects.TablePurger.Worker
+2021-12-06 22:50:28.302 -03:00 [INF] Executed DbCommand (211ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:29.400 -03:00 [INF] Checking database: "2021-12-06T22:50:29.3997547-03:00"
+2021-12-06 22:50:29.422 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:30.442 -03:00 [INF] Checking database: "2021-12-06T22:50:30.4423545-03:00"
+2021-12-06 22:50:30.459 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:31.472 -03:00 [INF] Checking database: "2021-12-06T22:50:31.4723902-03:00"
+2021-12-06 22:50:31.483 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:32.496 -03:00 [INF] Checking database: "2021-12-06T22:50:32.4961867-03:00"
+2021-12-06 22:50:32.505 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:33.506 -03:00 [INF] Checking database: "2021-12-06T22:50:33.5064818-03:00"
+2021-12-06 22:50:33.515 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:34.527 -03:00 [INF] Checking database: "2021-12-06T22:50:34.5271816-03:00"
+2021-12-06 22:50:34.534 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:35.539 -03:00 [INF] Checking database: "2021-12-06T22:50:35.5395729-03:00"
+2021-12-06 22:50:35.552 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:36.556 -03:00 [INF] Checking database: "2021-12-06T22:50:36.5560913-03:00"
+2021-12-06 22:50:36.564 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:37.569 -03:00 [INF] Checking database: "2021-12-06T22:50:37.5696641-03:00"
+2021-12-06 22:50:37.576 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:38.594 -03:00 [INF] Checking database: "2021-12-06T22:50:38.5941411-03:00"
+2021-12-06 22:50:38.601 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:39.618 -03:00 [INF] Checking database: "2021-12-06T22:50:39.6179913-03:00"
+2021-12-06 22:50:39.623 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:40.627 -03:00 [INF] Checking database: "2021-12-06T22:50:40.6269640-03:00"
+2021-12-06 22:50:40.633 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:41.639 -03:00 [INF] Checking database: "2021-12-06T22:50:41.6393712-03:00"
+2021-12-06 22:50:41.645 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:42.658 -03:00 [INF] Checking database: "2021-12-06T22:50:42.6584069-03:00"
+2021-12-06 22:50:42.661 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:43.671 -03:00 [INF] Checking database: "2021-12-06T22:50:43.6715385-03:00"
+2021-12-06 22:50:43.674 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:44.683 -03:00 [INF] Checking database: "2021-12-06T22:50:44.6837924-03:00"
+2021-12-06 22:50:44.686 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:45.696 -03:00 [INF] Checking database: "2021-12-06T22:50:45.6965569-03:00"
+2021-12-06 22:50:45.700 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:46.711 -03:00 [INF] Checking database: "2021-12-06T22:50:46.7115167-03:00"
+2021-12-06 22:50:46.717 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:47.734 -03:00 [INF] Checking database: "2021-12-06T22:50:47.7346756-03:00"
+2021-12-06 22:50:47.739 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CREATION_DATE], [p].[NAME]
+FROM [dbo].[PURGEABLE_TABLE] AS [p]
+WHERE [p].[CREATION_DATE] <= DATEADD(minute, CAST(@__p_0 AS int), GETDATE())
+2021-12-06 22:50:47.920 -03:00 [INF] Application is shutting down...
+2021-12-06 22:50:47.930 -03:00 [INF] The purge service were stopped at 06/12/2021 22:50:47 -03:00
