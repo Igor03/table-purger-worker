@@ -1,5 +1,5 @@
 # Table Purger Worker
-This repository contains a simple .NET Core worker that which its main goal is to purge records from a table depending on how many time those records are in the table.
+This repository contains a simple .NET Core worker which its main goal is to purge records from a table depending on how long those records are in the table.
 
 ## Install & Run
 
